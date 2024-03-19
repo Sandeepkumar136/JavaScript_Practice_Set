@@ -69,6 +69,9 @@ console.log(--y);
 */
 
 
+// Comparision Operators
+
+/*
 console.log(x==y);
 console.log(x===y);
 console.log(x!=y);;
@@ -77,3 +80,7 @@ console.log(x>y);
 console.log(x<y);
 console.log(x<=y);
 console.log(x>=y);
+*/
+
+
+
