@@ -488,3 +488,18 @@ Splicing and Slicing Arrays
     /**
      * WeekEnd Task Completed
      */
+    // Using Math.min() on an Array
+
+    {
+        const Qualified_students=[54,35,34,85,62,95,75,35,46,52,85,65,45];
+        console.log(`This is Accend Numbers ${Qualified_students.
+        sort((a,b)=>a-b)}`);
+        function Lowest_factor_func(Arr){
+            const Highest_Number='This is Highest Number '+Math.max.apply(null, Arr);
+            const Lowest_Number='This is Lowest Number '+Math.min.apply(null, Arr);
+            return [Highest_Number, Lowest_Number];
+        };
+        console.log(Lowest_factor_func(Qualified_students));
+
+
+    };
