@@ -2,6 +2,7 @@
 
 
 
+
 /*
 
 
@@ -512,11 +513,17 @@ Splicing and Slicing Arrays
      */
     // The forEach() method calls a function (a callback function) once for each array element.
     {
+        const Arr=[];
         let NumArr=[8,9,7,6,5,3,1,5,4,6,9,8,4,6,2];
         let Stings='';
-        console.log(NumArr.forEach(MyNumFunction))
+        NumArr.forEach(MyNumFunction);
+        console.log(Stings)
         function MyNumFunction(index, value, array){
-            Stings+=value+ '<br>';
+            Stings+=value +',';
         }
+  
+        NumArr.forEach((value, index, array)=>{Arr.push(`${index} This is index value, ${value} This is value of array <br>`)});
+        document.write(Arr.join(" "));
 
     };
+
