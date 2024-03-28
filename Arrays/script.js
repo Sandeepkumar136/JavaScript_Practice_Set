@@ -510,3 +510,13 @@ Splicing and Slicing Arrays
     /**
      * Array Lteration Mathods
      */
+    // The forEach() method calls a function (a callback function) once for each array element.
+    {
+        let NumArr=[8,9,7,6,5,3,1,5,4,6,9,8,4,6,2];
+        let Stings='';
+        console.log(NumArr.forEach(MyNumFunction))
+        function MyNumFunction(index, value, array){
+            Stings+=value+ '<br>';
+        }
+
+    };
